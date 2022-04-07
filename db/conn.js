@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+// conning client and server by mongoose
+
 const DB = process.env.DATABASE
 
 

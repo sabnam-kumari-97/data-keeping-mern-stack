@@ -38,7 +38,7 @@ router.post("/register",async(req,res)=>{
     } catch (error) {
         res.status(422).json(error);
     }
-})
+});
 
 
 // get userdata
@@ -51,7 +51,7 @@ router.get("/getdata",async(req,res)=>{
     } catch (error) {
         res.status(422).json(error);
     }
-})
+});
 
 // get individual user
 
@@ -67,7 +67,7 @@ router.get("/getuser/:id",async(req,res)=>{
     } catch (error) {
         res.status(422).json(error);
     }
-})
+});
 
 
 // update user data
@@ -86,7 +86,7 @@ router.patch("/updateuser/:id",async(req,res)=>{
     } catch (error) {
         res.status(422).json(error);
     }
-})
+});
 
 
 // delete user
@@ -101,7 +101,7 @@ router.delete("/deleteuser/:id",async(req,res)=>{
     } catch (error) {
         res.status(422).json(error);
     }
-})
+});
 
 
 

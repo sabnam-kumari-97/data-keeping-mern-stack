@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.get("/",(req,res)=>{
     res.json("server start")
-})
+});
 
 app.use(router);
 

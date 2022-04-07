@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+// asingning schema
+
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
